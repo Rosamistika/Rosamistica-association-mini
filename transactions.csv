@@ -1,0 +1,11 @@
+Item_1,Item_2,Item_3,Item_4,Item_5
+Yogurt,Cheese,Bananas,Apples,Bread
+Juice,Cheese,Milk,Yogurt,
+Juice,Milk,Apples,Eggs,Yogurt
+Juice,Yogurt,Milk,Bananas,Apples
+Apples,Juice,Bread,,
+Cheese,Eggs,Yogurt,Milk,Bananas
+Yogurt,Cheese,Bread,Bananas,Juice
+Juice,Bread,,,
+Apples,Milk,Bananas,Bread,Cheese
+Bread,Juice,Apples,,
