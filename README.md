@@ -7,6 +7,21 @@
 ## Description
 
 This notebook simulates 10 transactions and applies the Apriori algorithm using `mlxtend` to find frequent itemsets and generate association rules. A rule is then interpreted in real-world context.
+1. Transaction Simulation
+Created a list of 10 fake transactions in Python, each representing a customer’s purchase.
+
+2. One-Hot Encoding
+Converted the list of transactions into a binary matrix using mlxtend.preprocessing.TransactionEncoder.
+
+3. Apriori Algorithm
+Used mlxtend.frequent_patterns.apriori to find frequent itemsets with a minimum support of 0.3 (30%).
+
+4. Generate Association Rules
+Used mlxtend.frequent_patterns.association_rules with:
+
+Metric: confidence
+
+Threshold: 0.7 (70%)
 
 ## Libraries Used
 
